@@ -7,7 +7,7 @@ import logging, math
 
 HOMING_START_DELAY = 0.001
 ENDSTOP_SAMPLE_TIME = .000015
-ENDSTOP_SAMPLE_COUNT = 4
+ENDSTOP_SAMPLE_COUNT = 1
 
 # Return a completion that completes when all completions in a list complete
 def multi_complete(printer, completions):
